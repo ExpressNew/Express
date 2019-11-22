@@ -30,41 +30,45 @@ componentDidMount(){
     }
 
 
-    render(){
-        const listItems = this.state.data.map((itemsSchema) =>
-        <li id="list"><a href="https://shielded-mountain-29948.herokuapp.com/">
-              <div class="col-sm-3" >
-           <img className="img"  src={itemsSchema.mainComImg}></img>
-           <div className="overlay">
-           <div className="text"  >{itemsSchema.mainComDis}</div>
-           <div className="text"  >{itemsSchema.mainComPri}</div>
-           <div className="text"  >{itemsSchema.mainComDisc}</div>
-           <div className="text"  >{itemsSchema.mainComRef}</div>
+    
 
-           </div>
-           </div>
-           </a>
-           </li>
-          
-           
-          
-        // <div>
-        // <img  src={itemsSchema.mainComImg} 
-        // ></img>
-        // <div><p>{itemsSchema.mainComDis}</p>
-        // </div>
-        // </div>
-      );
-        return (
-            <div >
-                {listItems}
 
-            </div>
-        )
-    }
+render(){
+  const listItems = this.state.data.map((itemsSchema) =>
+  <li id="list"><a href="https://shielded-mountain-29948.herokuapp.com/">
+        <div class="col-sm-3" >
+     <img className="img"  src={itemsSchema.mainComImg}></img>
+     <div className="overlay">
+     <div className="text"  >{itemsSchema.mainComDis}</div>
+     <div className="text"  >{itemsSchema.mainComPri}</div>
+     <div className="text"  >{itemsSchema.mainComDisc}</div>
+     <div className="text"  >{itemsSchema.mainComRef}</div>
+
+     </div>
+     </div>
+     </a>
+     </li>
+    
+     
+    
+  // <div>
+  // <img  src={itemsSchema.mainComImg} 
+  // ></img>
+  // <div><p>{itemsSchema.mainComDis}</p>
+  // </div>
+  // </div>
+);
+  return (
+      <div >
+          {listItems}
+      </div>
+  )
+}
 }          
 
 
 export default App;
+
+
 
 

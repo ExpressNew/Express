@@ -41,13 +41,13 @@ sample1 = new itemsModel({
   mainComRef:"String"
 });
 
-// sample1.save((error,result)=>{
-//     if(error){
-//         console.log("errrrrror",error
-//         )
-//     }
-//     else{
-//     console.log("doneeee")
-//     }
-//     });
+sample1.save((error,result)=>{
+    if(error){
+        console.log("errrrrror",error
+        )
+    }
+    else{
+    console.log("doneeee")
+    }
+    });
 module.exports.itemsModel = itemsModel;

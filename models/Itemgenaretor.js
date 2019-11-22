@@ -13,7 +13,10 @@ colors:faker.Image.fashion(),
 reviews: [faker.Lorem.sentence()],
 imges:[faker.Image.abstractImage()],
 mainComImg:faker.Image.fashion(),
-mainComDis:faker.Lorem.sentence()
+mainComDis:faker.Lorem.sentence(),
+mainComPri:faker.Lorem.sentence(),
+mainComDisc:faker.Lorem.sentence(),
+mainComRef:faker.Lorem.sentence()
 })
 s.save((error,data)=>{
     if(error){
