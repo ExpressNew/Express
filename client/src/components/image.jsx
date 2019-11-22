@@ -31,15 +31,32 @@ componentDidMount(){
 
     render(){
         const listItems = this.state.data.map((itemsSchema) =>
-        <li>
-        <img className="list" src={itemsSchema.mainComImg}></img>
-        <p  className="font" >{itemsSchema.mainComDis}</p>
-        </li>
+        <li id="list"><a href="https://cloud.mongodb.com/v2/5dd1379dff7a25e260610cf7#metrics/replicaSet/5dd1395d39ee1b1ce3a54f1a/explorer/second-project/items/find">
+          
+       
+              <div class="col-sm-3" >
+           <img  id="img"  src={itemsSchema.mainComImg}></img>
+           <div className="overlay">
+           <div className="text"  >{itemsSchema.mainComDis}</div>
+           </div>
+           </div>
+           </a>
+           </li>
+          
+           
+          
+        // <div>
+        // <img  src={itemsSchema.mainComImg} 
+        // ></img>
+        // <div><p>{itemsSchema.mainComDis}</p>
+        // </div>
+        // </div>
       );
         return (
-            <ul>
+            <div >
                 {listItems}
-            </ul>
+
+            </div>
         )
     }
 }          

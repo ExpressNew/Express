@@ -1,17 +1,17 @@
 var faker = require('faker')
 const db =require("./item").itemsModel
 
-for(var i= 0; i<2; i++){
+for(var i= 0; i<1; i++){
 
 
 var s = new db({
 id: faker.random.number(70,200),
-name: faker.definitions.first_name,
+name: faker.random.first_name(),
 price:""+ faker.random.number(300, 6000),
-sizes: faker.Lorem.words(),
-colors:faker.Internet.color(),
+sizes: [faker.Lorem.words()],
+colors:faker.Image.fashion(),
 reviews: [faker.Lorem.sentence()],
-imges:[faker.Image.imageUrl()],
+imges:[faker.Image.abstractImage()],
 mainComImg:faker.Image.fashion(),
 mainComDis:faker.Lorem.sentence()
 })
