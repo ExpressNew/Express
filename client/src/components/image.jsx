@@ -29,15 +29,18 @@ componentDidMount(){
       });
     }
 
+
     render(){
         const listItems = this.state.data.map((itemsSchema) =>
-        <li id="list"><a href="https://cloud.mongodb.com/v2/5dd1379dff7a25e260610cf7#metrics/replicaSet/5dd1395d39ee1b1ce3a54f1a/explorer/second-project/items/find">
-          
-       
+        <li id="list"><a href="https://shielded-mountain-29948.herokuapp.com/">
               <div class="col-sm-3" >
-           <img  id="img"  src={itemsSchema.mainComImg}></img>
+           <img className="img"  src={itemsSchema.mainComImg}></img>
            <div className="overlay">
            <div className="text"  >{itemsSchema.mainComDis}</div>
+           <div className="text"  >{itemsSchema.mainComPri}</div>
+           <div className="text"  >{itemsSchema.mainComDisc}</div>
+           <div className="text"  >{itemsSchema.mainComRef}</div>
+
            </div>
            </div>
            </a>
@@ -63,4 +66,5 @@ componentDidMount(){
 
 
 export default App;
+
 
