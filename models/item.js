@@ -10,11 +10,11 @@ const itemsSchema = new Schema ({
   id: Number,
   name: String,
   price: String,
-  sizes: String,
+  sizes: Array,
   colors: String,
   reviews: Array,
   imges: Array,
-  mainComImg:String,
+  mainComImg:Array,
   mainComDis:String
 });
 
@@ -30,7 +30,7 @@ sample1 = new itemsModel({
   imges: [
     "https://images.express.com/is/image/expressfashion/0021_01785475_0925_f035?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
   ],
-  mainComImg:"https://images.express.com/is/image/expressfashion/0021_01775487_0009_f015?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+  mainComImg:["https://images.express.com/is/image/expressfashion/0021_01775487_0009_f015?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon","https://images.express.com/is/image/expressfashion/0021_01785475_0925_f035?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"],
   mainComDis:"this is a red t-shirt"
 });
 

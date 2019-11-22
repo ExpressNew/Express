@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <title>HOSY</title>
   <link rel= "stylesheet" type = "text/css" href = "all.css">
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" ></link>
+
 </head>
 <body>
 <div id="root">
 </div>
 <div>
-<ul id="first-ul">
+<ul id="first-ul" >
         <li>40% OFF EVERYTHING! IN STORES & ONLINE</li>
         <li><a href="ex.asp"> Exclusions apply</a></li>
         <li><a href="contact.asp">WOMEN</a></li>
@@ -18,25 +20,62 @@
       </ul>
     </div>
     <br>
-<div>
-        <p style="display: inline" style="float:left ">Free Shipping on Orders $50+Details</p>
-       <p style="display: inline" id="express" style="text-align: center">Express</p>
+<div style="display: inline;">
+  <ul style="display: inline;">
+        <li>Free Shipping on Orders $50+Details</li>
+
+        <ul style="display: inline;">
+       <li><p style="display: inline;" id="express"><a href="contact.asp" style="text-align: center;"></a>Express</p></li>
+
+        <ul style="display: inline;" >
+
+      <li><i  style="display: inline;" class= "search icon"></i></i></li> 
+       <li><i style="display: inline;" class= "user outline icon" ></i></i></li>
+       <li><i style="display: inline" class= "calendar icon" ></i></i></li>
                 <hr>
+                </ul>
+  </ul>
 </div>
-<div className="third">
-            <p style="display: inline" >WOMEN</p>
-            <p style="display: inline" >MEN</p>
-            <p style="display: inline" >JEANS</p>
-            <p style="display: inline" >NEW</p>
-            <p style="display: inline" >STYLE</p>
-            <p style="display: inline" >SALE</p>
-            <p style="display: inline" >LABELS WE LOVE</p>
-            <p style="display: inline" >GIFTING</p>
+<div margin: 10px 5px;
+>
+  <ul style="text-align: center;">
+      <li><a href="contact.asp">WOMEN</a></li>
+      <li><a href="contact.asp">MEN</a></li>
+      <li><a href="contact.asp">JEANS</a></li>
+      <li><a href="contact.asp">NEW</a></li>
+      <li><a href="contact.asp">STYLE</a></li>
+      <li><a href="contact.asp">SALE</a></li>
+      <li><a href="contact.asp">LABELS WE LOVE</a></li>
+      <li><a href="contact.asp">GIFTING</a></li>
+    </ul>
 
 </div>
 <div>
+    <p>Men / Shirts</p>
 
 </div>
+<div   style="display: block" style="border: black;" ><p style="text-align:50%;">MEN'S SHIRTS, TEES & POLOS</p>
+  
+<div id="box">
+    <h5 style="font-size: 15px;;">Shirts</h5>
+    <hr>
+    <h6 style="font-size: 13px;;">All Shirts</h6>
+      <p><a style="color: black;" href="default.asp">Button Down Shirts</a></p>
+      <p><a style="color: black;" href="news.asp">Dress Shirts</a></p>
+      <p><a style="color: black;" href="contact.asp">Performance Dress Shirts</a></p>
+      <p><a style="color: black;"href="about.asp">Casual Button Down Shirts</a></p>
+      <p><a style="color: black;"href="about.asp">Soft Wash Shirts</a></p>
+      <p><a style="color: black;"href="about.asp">Flannel Shirts</a></p>
+      <p><a style="color: black;"href="about.asp">T-Shirts</a></p>
+      <p><a style="color: black;"href="about.asp">Polos</a></p>
+      <p><a style="color: black;"href="about.asp">Hoddies and Sweetshirts</a></p>
+      <p><a style="color: black;"href="about.asp">Sweaters</a></p>
+      <p><a style="color: black;"href="about.asp">Graphic Tees</a></p>
+</div>
+
+    </ul>
+</div>
+
 <style>
 #first-ul {
   list-style-type: none;
@@ -47,11 +86,11 @@
 }
 /* Change the link color on hover */
 li a:hover {
-  color: white;
+  color: GRAY;
 }
 li {
   display: inline;
-  color: white;
+  color: black;
   size: bold;
 }
 #enable {
@@ -61,19 +100,20 @@ li {
     color: white;
 }
 li a {
-  color: white;
+  color: black;
+
   text-align: center;
   font-weight: bold;
+  padding: 5px 5px;
+  margin: 0 2px;
+
 }
 #express{
     font-weight: bold;
     font-size: 300%;
-    text-align: center;
+    /* text-align: center; */
     }
-    .third{
-        list-style-type: none;
-        
-    }
+
 
 </style>
 
@@ -82,10 +122,12 @@ li a {
  src="https://code.jquery.com/jquery-3.4.1.min.js"
  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
  crossorigin="anonymous"></script>
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 <script type="text/babel">
+
 </script>
 <script  type="text/javascript" src="bundle.js"></script>
 </body>
