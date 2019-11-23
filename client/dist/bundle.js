@@ -33802,14 +33802,14 @@
 	        { id: "photos" },
 	        _react2.default.createElement("img", {
 	          id: "side",
-	          src: "https://images.express.com/is/image/expressfashion/0036_05051953_0010_f?cache=on&wid=480&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	          src: "https://images.express.com/is/image/expressfashion/0020_00284105_2029_f020?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
 	        }),
 	        _react2.default.createElement(
 	          "div",
 	          null,
 	          _react2.default.createElement("img", {
 	            id: "side2",
-	            src: "https://images.express.com/is/image/expressfashion/0036_05051953_0010_f07?cache=on&wid=480&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            src: "https://images.express.com/is/image/expressfashion/0020_00284105_2029_f052?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
 	          })
 	        ),
 	        _react2.default.createElement(
@@ -33817,7 +33817,7 @@
 	          null,
 	          _react2.default.createElement("img", {
 	            id: "side3",
-	            src: "https://images.express.com/is/image/expressfashion/0036_05051953_0010_f23?cache=on&wid=480&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            src: "https://images.express.com/is/image/expressfashion/0020_00284105_2029_f034?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
 	          })
 	        ),
 	        _react2.default.createElement(
@@ -33839,26 +33839,49 @@
 	        _react2.default.createElement(
 	          "div",
 	          null,
-	          _react2.default.createElement("img", {
-	            id: "pic1",
-	            src: "https://images.express.com/is/image/expressfashion/0036_05051590_0713_f001?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
-	          }),
-	          _react2.default.createElement("img", {
-	            id: "pic2",
-	            src: "https://images.express.com/is/image/expressfashion/0036_05051421_1695_f001?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
-	          }),
-	          _react2.default.createElement("img", {
-	            id: "pic3",
-	            src: "https://images.express.com/is/image/expressfashion/0036_05051954_0010_f?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
-	          }),
-	          _react2.default.createElement("img", {
-	            id: "pic4",
-	            src: "https://images.express.com/is/image/expressfashion/0022_04777724_0058_f004?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
-	          }),
-	          _react2.default.createElement("img", {
-	            id: "pic5",
-	            src: "https://images.express.com/is/image/expressfashion/0022_04777890_0010_f010?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
-	          })
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://www.express.com/clothing/men/timbuk2-authority-laptop-backpack/pro/00158908/color/Jet%20Black/" },
+	            _react2.default.createElement("img", {
+	              id: "pic1",
+	              src: "https://images.express.com/is/image/expressfashion/0034_00158908_1056_f001?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            }),
+	            " "
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://www.express.com/clothing/men/slim-button-down-denim-shirt/pro/00284499/color/Medium%20Wash/e/regular/" },
+	            _react2.default.createElement("img", {
+	              id: "pic2",
+	              src: "https://images.express.com/is/image/expressfashion/0020_00284499_0019_f003?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://www.express.com/clothing/men/classic-fit-twill-tuxedo-dress-shirt/pro/00302736/color/White/e/regular/" },
+	            _react2.default.createElement("img", {
+	              id: "pic3",
+	              src: "https://images.express.com/is/image/expressfashion/0036_05051954_0010_f?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://www.express.com/clothing/men/orlando-magic-nba-twill-shirt-jacket/pro/00284355/color/Jet%20Black/e/regular/" },
+	            " ",
+	            _react2.default.createElement("img", {
+	              id: "pic4",
+	              src: "https://images.express.com/is/image/expressfashion/0020_00284355_1056_f030?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            })
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://www.express.com/clothing/men/slim-twill-military-shirt/pro/00282886/color/olive%20green/e/regular/" },
+	            " ",
+	            _react2.default.createElement("img", {
+	              id: "pic5",
+	              src: "https://images.express.com/is/image/expressfashion/0022_04777890_0010_f010?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+	            })
+	          )
 	        ),
 	        _react2.default.createElement(
 	          "div",
