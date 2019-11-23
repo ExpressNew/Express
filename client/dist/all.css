@@ -37,7 +37,7 @@
     transition: .5s ease;
     opacity: .5;
     list-style: none;
-    padding: 17px 25px 102px;
+    padding: 20px 28px 98px;
     font-size: 11px;
     font-family: "express", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #383838;
@@ -91,6 +91,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 38px;
+
 }
 
 #box{
@@ -125,4 +127,9 @@
 #strike{
     text-decoration: line-through;
     text-decoration-color: #000;
+    font-size: .8rem
+}
+.dis{
+font-size: .8rem;
+color:black !important;
 }

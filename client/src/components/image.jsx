@@ -39,10 +39,10 @@ render(){
         <div class="col-sm-3" >
      <img className="img"  src={itemsSchema.mainComImg}></img>
      <ul className="overlay">
-    <li  >{itemsSchema.mainComDis}</li>
+    <div class="dis" >{itemsSchema.mainComDis}</div>
      <div><span id="strike">$79.90       </span><span class="price ">{itemsSchema.mainComPri}</span></div>
-     <li  >{itemsSchema.mainComDisc}</li>
-     <li  >{itemsSchema.mainComRef}</li>
+     <div class="disc" >{itemsSchema.mainComDisc}</div>
+     <div  class="ref">{itemsSchema.mainComRef}</div>
 
      </ul>
      </div>
