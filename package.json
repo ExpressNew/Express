@@ -1,51 +1,30 @@
 {
-  "name": "express-project",
+  "name": "second-project",
   "version": "1.0.0",
-  "description": "green field",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev-react": "webpack -d --watch",
-    "build": "webpack -p --config ./webpack.config.js --watch --display-error-details",
-    "watch": "webpack -d --watch --config ./webpack.config.js --display-error-details",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js"
+    "server": "nodemon server.js",
+    "react-dev": "webpack -d --watch"
   },
-  "keywords": [],
   "author": "",
+  "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.7.0",
     "babel": "^6.23.0",
-    "babel-core": "^6.17.0",
-    "body-parser": "^1.15.2",
-    "cool-ascii-faces": "^1.3.4",
-    "express": "^4.14.0",
-    "jquery": "^3.1.1",
-    "mongodb": "^3.3.3",
-    "mongoose": "^5.7.8",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "request": "^2.75.0",
-    "react-gesture-gallery": "^1.1.0",
-    "react-image-magnifiers": "^1.2.1",
-    "react-image-slider": "^0.1.0",
-    "react-responsive-carousel": "^3.1.51",
-    "react-simple-image-slider": "^1.0.2"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.11"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.6.3",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.16.0",
-    "babel-preset-react": "^6.16.0",
-    "nodemon": "^1.11.0",
-    "webpack": "^1.15.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Basima1994/expressProject.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Basima1994/expressProject/issues"
-  },
-  "homepage": "https://github.com/Basima1994/expressProject#readme",
-  "license": "ISC"
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }

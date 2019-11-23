@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var webpack = require("webpack");
 var path = require("path");
 
@@ -28,3 +29,26 @@ var config = {
 };
 
 module.exports = config;
+=======
+module.exports = {
+    entry: __dirname + '/client/src/index.jsx',
+    module: {
+      rules: [
+        {
+          test: [/\.jsx$/],
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-react', '@babel/preset-env']
+            }
+          }
+        }
+      ]
+    },
+     output: {
+      filename: 'bundle.js',
+      path: __dirname + '/client/dist'
+    }
+  };
+>>>>>>> fe1d9cb169be8371e17b0f68d641d6b37e00413b
