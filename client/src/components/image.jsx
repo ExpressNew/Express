@@ -35,16 +35,16 @@ componentDidMount(){
 
 render(){
   const listItems = this.state.data.map((itemsSchema) =>
-  <li id="list"><a href="https://shielded-mountain-29948.herokuapp.com/">
+  <li id="list"><a href="https://agile-ridge-65976.herokuapp.com/?id=1">
         <div class="col-sm-3" >
      <img className="img"  src={itemsSchema.mainComImg}></img>
-     <div className="overlay">
-     <div className="text"  >{itemsSchema.mainComDis}</div>
-     <div className="text"  >{itemsSchema.mainComPri}</div>
-     <div className="text"  >{itemsSchema.mainComDisc}</div>
-     <div className="text"  >{itemsSchema.mainComRef}</div>
+     <ul className="overlay">
+    <div class="dis" >{itemsSchema.mainComDis}</div>
+     <div><span id="strike">$79.90       </span><span class="price ">{itemsSchema.mainComPri}</span></div>
+     <div class="disc" >{itemsSchema.mainComDisc}</div>
+     <div  class="ref">{itemsSchema.mainComRef}</div>
 
-     </div>
+     </ul>
      </div>
      </a>
      </li>

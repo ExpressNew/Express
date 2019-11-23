@@ -14,10 +14,10 @@ console.log(URI)
 mongoose.connect( URI, { useNewUrlParser: true });
 
 var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
- console.log(" database connection succeded");
-});
+// db.on('error', console.error.bind(console, 'connection error:'));
+// db.once('open', function() {
+//  console.log(" database connection succeded");
+// });
 app.use(bodyParser.json());
 
 const itemsModel = require("./models/item.js").itemsModel;
