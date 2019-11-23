@@ -38,13 +38,13 @@ render(){
   <li id="list"><a href="https://shielded-mountain-29948.herokuapp.com/">
         <div class="col-sm-3" >
      <img className="img"  src={itemsSchema.mainComImg}></img>
-     <div className="overlay">
-     <div className="text"  >{itemsSchema.mainComDis}</div>
-     <div className="text"  >{itemsSchema.mainComPri}</div>
-     <div className="text"  >{itemsSchema.mainComDisc}</div>
-     <div className="text"  >{itemsSchema.mainComRef}</div>
+     <ul className="overlay">
+    <li className="card-info "  >{itemsSchema.mainComDis}</li>
+     <li className="card-info"  >{itemsSchema.mainComPri}</li>
+     <li className="card-info"  >{itemsSchema.mainComDisc}</li>
+     <li className="card-info"  >{itemsSchema.mainComRef}</li>
 
-     </div>
+     </ul>
      </div>
      </a>
      </li>

@@ -25,9 +25,9 @@
  .overlay {
    border-radius: 50px;
    position: absolute;
-   padding: 10px;
-   margin: 10px;
-   bottom: 0;
+   padding: 20px;
+   margin: 20px;
+   bottom: 40px;
    left: 0;
    right: 0;
    background-color: white;
@@ -46,7 +46,7 @@
    white-space: nowrap;
    color: black;
    font-size: 15px;
-   position: absolute;
+   /* position: absolute; */
    overflow: hidden;
    top: 50%;
    left: 50%;
@@ -98,10 +98,20 @@
 }
 
 .img{
-    width: 300px;
+    /* width: 300px; */
     height: 300px;
+    margin-bottom: 60px;
 }
 .img:hover{
     transform: scale(1.8);
     transition: transform 0.5s ease;
+}
+.card-info {
+    list-style: none;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* height: 46px; */
+    padding: 12px 10px 10px;
+    font-size: 15px;
+    color: black;
 }
